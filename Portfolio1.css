@@ -1,0 +1,145 @@
+
+        h1{
+            background-color: aqua;
+        border-style: solid;
+        border-width: 5px;
+        border-color: black;
+    font-size: 40px;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 40px;
+    color: black;
+}
+h3{
+    background-color: aqua;
+        border-style: solid;
+        border-width: 5px;
+        border-color: black;
+    font-size: 30px;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: navy;
+}
+h3:hover{
+    color: red;
+}
+nav {
+    top: 0;
+    left: 0;
+    z-index: 1;
+    position: flex;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    padding: 1rem 3rem;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about{
+    position: sticky;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 80rem;
+    margin: auto;
+}
+.image{
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.about img {
+    width: 100px;
+        height: 150px;
+        border: solid;
+        padding: 10px;
+        margin: 20px;
+        background-color: white;
+        transition: all 1s;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px 5px #cccccc;
+  }
+img:hover {
+        cursor: pointer;
+        transform: scale(1.2);
+       
+      }
+  
+.about p {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 50rem;
+    padding: 0.75rem;
+    border-radius: 6px;
+    padding: 0.5rem 0;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    background-color: ghostwhite;
+    text-align: justify;
+  }
+  .skills{
+    text-align: left;
+
+  }
+
+  
+.edu{
+    width: 60%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.edu td{
+    font-size: large;
+    text-align: left;
+    background-color: rgb(185, 185, 185);
+    border: 5px;
+}
+
+.edu th{
+    font-size: larger;
+    background-color:grey;
+}
+
+.project{
+    text-align: left;
+}
+.project p{
+    text-align: left;
+}
+
+.project ul li{
+    list-style-type: none;
+    text-align: left;
+    font-size: 20px;
+    border-radius: 6px;
+    background-color: rgb(169, 216, 169);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow:0 3px 5px rgba(0, 0, 0, 0.1) ;
+}
+
+.hobbies ul{
+    text-align: left;
+}
+
+.con{
+    position: sticky;
+    text-align: left;
+    justify-content: center;
+    display: flex;
+    gap: 2.5rem;
+    max-width: 80rem;
+    margin: auto;
+}
+
+.con ul li{
+    list-style-type: none;
+   text-align: left;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow:0 3px 5px rgba(0, 0, 0, 0.1) ;
+}
